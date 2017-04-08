@@ -6,7 +6,7 @@ module.exports = {
     noParse: [
       /node_modules(\\|\/)sinon/
     ],
-    loaders: [
+    rules: [
       {
         test: /\.json$/,
         loader: 'json-loader'
@@ -21,7 +21,7 @@ module.exports = {
       },
       {
         test: /sinon(\\|\/)pkg(\\|\/)sinon\.js/,
-        loader: 'imports?define=>false,require=>false'
+        loader: 'imports-loader?define=>false,require=>false'
       }
     ]
   },
