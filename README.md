@@ -54,7 +54,7 @@ This boilerplate was developed while creating a few modules at [WeWork](https://
 # Development
 
 1. Checkout this repo
-2. Run `npm install`
+2. Run `yarn`
 3. Make changes in a feature branch and open a PR to `master`
 
 In lieu of a formal style guide, please:
@@ -70,16 +70,16 @@ In lieu of a formal style guide, please:
 
 Target | Behavior
 ------------ | -------------
-**`npm test`** | Runs tests in browser and node runtimes
-**`npm run tdd`** | Runs tests, bundles and re-runs on file changes
-**`npm run test:coverage`** | Runs tests and outputs a code coverage report to `/coverage`
-**`npm run test:ci`** | Runs tests, outputs code coverage
-**`npm run lint`** | (*Run as a git pre-commit hook*) Runs `eslint`
-**`npm run docs`** | Generates `API.md` from JSDoc comments in `/src`
-**`npm run security-scan`** | (*Run as a git pre-push hook*) Checks npm dependencies for security vulnerabilities
-**`npm run release <version>`** | Generates a changelog, updates package version, tags and pushes via [`np`](https://www.npmjs.com/package/np). This should only be run on an up-to-date `master` by a maintainer of this package. <br /><br />Version can be a semver level: `patch | minor | major | prepatch | preminor | premajor | prerelease`, or a valid semver version: `1.2.3`.
+**`yarn test`** | Runs tests in browser and node runtimes
+**`yarn tdd`** | Runs tests, bundles and re-runs on file changes
+**`yarn test:coverage`** | Runs tests and outputs a code coverage report to `/coverage`
+**`yarn test:ci`** | Runs tests, outputs code coverage
+**`yarn lint`** | (*Run as a git pre-commit hook*) Runs `eslint`
+**`yarn docs`** | Generates `API.md` from JSDoc comments in `/src`
+**`yarn security-scan`** | (*Run as a git pre-push hook*) Checks npm dependencies for security vulnerabilities
+**`yarn release <version>`** | Generates a changelog, updates package version, tags and pushes via [`np`](https://www.npmjs.com/package/np). This should only be run on an up-to-date `master` by a maintainer of this package. <br /><br />Version can be a semver level: `patch | minor | major | prepatch | preminor | premajor | prerelease`, or a valid semver version: `1.2.3`.
 
-**`npm run` will list all npm scripts**
+**`yarn run` will list all npm scripts**
 
 
 [npm-url]: https://npmjs.org/package/universal-npm-starter
