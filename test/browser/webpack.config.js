@@ -18,10 +18,6 @@ module.exports = {
           path.resolve(process.cwd(), 'test')
         ],
         loader: 'babel-loader'
-      },
-      {
-        test: /sinon(\\|\/)pkg(\\|\/)sinon\.js/,
-        loader: 'imports-loader?define=>false,require=>false'
       }
     ]
   },
