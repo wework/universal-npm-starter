@@ -6,7 +6,7 @@ module.exports = {
     noParse: [
       /node_modules(\\|\/)sinon/
     ],
-    loaders: [
+    rules: [
       {
         test: /\.json$/,
         loader: 'json-loader'
@@ -18,10 +18,6 @@ module.exports = {
           path.resolve(process.cwd(), 'test')
         ],
         loader: 'babel-loader'
-      },
-      {
-        test: /sinon(\\|\/)pkg(\\|\/)sinon\.js/,
-        loader: 'imports?define=>false,require=>false'
       }
     ]
   },
