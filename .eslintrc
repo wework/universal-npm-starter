@@ -15,6 +15,7 @@
   "settings": {
     "import/resolver": "node"
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
